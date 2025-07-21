@@ -1,5 +1,6 @@
 {
   "name": "viboshop-e-commerce-with-react",
+  "homepage": ".",
   "private": true,
   "version": "0.0.0",
   "type": "module",
