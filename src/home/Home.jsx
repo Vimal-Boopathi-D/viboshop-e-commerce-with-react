@@ -1,11 +1,13 @@
 import React from 'react'
 import { Outlet } from 'react-router-dom'
 import Banner from './Banner'
+import HomeCategory from './HomeCategory'
 
 const Home = () => {
   return (
     <div>
       <Banner/>
+      <HomeCategory/>
     </div>
   )
 }

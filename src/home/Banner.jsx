@@ -2,6 +2,7 @@ import React from 'react'
 import { useState } from 'react';
 import productData from '../products.json'
 import { Link } from 'react-router-dom';
+import  SelectedCategory from '../components/SelectedCategory';
 const title=(
     <h2>All Your <span>Favorite</span> Products In One Search</h2>
 )
@@ -22,12 +23,11 @@ text: "Buy Anything Online",
 ];
 const Banner = () => {
   const[searchInput, setSearchInput] = useState("");
-  const[filteredProducts, setFilteredProducts] = useState("productData");
+  const[filteredProducts, setFilteredProducts] = useState(productData);
   //console.log(productData);
   //search functionality
-  const handleSearch = (e) => {
-    console.log(e.target.value)
-    const searchTerm=e.target.value
+  const handleSearch = (event) => {
+    const searchTerm=event.target.value
     setSearchInput(searchTerm);
     //filter products based on search term
     const filtered = productData.filter((product) => {
@@ -40,7 +40,8 @@ const Banner = () => {
         <div className='container'>
             <div className='banner-content'>
                  {title}
-                 <form action="">
+                 <form onSubmit={(e) => e.preventDefault()}>
+                  <SelectedCategory select={"all"}/>
                   <input type="text" id="search" placeholder='Search for products' value={searchInput}  onChange={handleSearch}/>
                   <button type='submit'>
                     <i className="icofont-ui-search"></i>
