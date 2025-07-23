@@ -1,42 +1,48 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import img01 from '/01.jpg';
+import img02 from '/02.jpg';
+import img03 from '/03.jpg';
+import img04 from '/04.jpg';
+import img05 from '/05.jpg';
+import img06 from '/06.jpg';
 const subTitle = "Choose Any Products";
 const title = "Buy Everything with Us";
 const btnText = "Get Started Now";
 
 const categoryList = [
 {
-imgUrl: 'public/01.jpg',
+imgUrl: img01,
 imgAlt: 'category rajibraj91 rajibraj',
 iconName: 'icofont-brand-windows',
 title: 'DSLR Camera',
 },
 {
-imgUrl: 'public/02.jpg',
+imgUrl: img02,
 imgAlt: 'category rajibraj91 rajibraj',
 iconName: 'icofont-brand-windows',
 title: 'Shoes',
 },
 {
-imgUrl: 'public/03.jpg',
+imgUrl: img03,
 imgAlt: 'category rajibraj91 rajibraj',
 iconName: 'icofont-brand-windows',
 title: 'Photography',
 },
 {
-imgUrl: 'public/04.jpg',
+imgUrl: img04,
 imgAlt: 'category rajibraj91 rajibraj',
 iconName: 'icofont-brand-windows',
 title: 'Formal Dress',
 },
 {
-imgUrl: 'public/05.jpg',
+imgUrl: img05,
 imgAlt: 'category rajibraj91 rajibraj',
 iconName: 'icofont-brand-windows',
 title: 'Colorful Bags',
 },
 {
-imgUrl: 'public/06.jpg',
+imgUrl: img06,
 imgAlt: 'category rajibraj91 rajibraj',
 iconName: 'icofont-brand-windows',
 title: 'Home Decor',
