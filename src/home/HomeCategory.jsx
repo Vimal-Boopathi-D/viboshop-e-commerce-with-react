@@ -82,6 +82,9 @@ const HomeCategory = () => {
                         ))
                     }
                 </div>
+                <div className='text-center mt-5'>
+                    <Link className='lab-btn'><span>{btnText}</span></Link>
+                </div>
             </div>
         </div>
       
