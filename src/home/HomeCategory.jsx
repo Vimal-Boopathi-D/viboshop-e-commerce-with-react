@@ -1,11 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import img01 from '/01.jpg';
-import img02 from '/02.jpg';
-import img03 from '/03.jpg';
-import img04 from '/04.jpg';
-import img05 from '/05.jpg';
-import img06 from '/06.jpg';
+import img01 from '../assets/images/category/01.jpg';
+import img02 from '../assets/images/category/02.jpg';
+import img03 from '../assets/images/category/03.jpg';
+import img04 from '../assets/images/category/04.jpg';
+import img05 from '../assets/images/category/05.jpg';
+import img06 from '../assets/images/category/06.jpg';
 const subTitle = "Choose Any Products";
 const title = "Buy Everything with Us";
 const btnText = "Get Started Now";
