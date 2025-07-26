@@ -2024,7 +2024,7 @@ p {
 footer.style-2 .footer-bottom,
 .feature-section.style-3,
 .section-bg-ash {
-  background: #f9f9f9;
+  background: f9f9f9;
 }
 .news-letter .section-wrapper .news-form form .nf-list::after,
 .news-letter .section-wrapper,
@@ -7044,7 +7044,7 @@ button {
 .instructor-section.style-2::after {
   right: -130px;
   bottom: 0;
-  width: 60%;
+  width: 57%;
   transform: skewX(-20deg);
 }
 @media (max-width: 1199px) {
@@ -8037,8 +8037,8 @@ button {
   animation: circle-2 1.05s infinite;
 }
 .clients-section.style-2 .section-wrapper .clients .client-list:nth-child(1) {
-  top: 70px;
-  left: 20%;
+  top: 130px;
+  left: 23%;
 }
 .clients-section.style-2 .section-wrapper .clients .client-list:nth-child(2) {
   top: 40px;
@@ -8057,8 +8057,8 @@ button {
   background: #7256df;
 }
 .clients-section.style-2 .section-wrapper .clients .client-list:nth-child(3) {
-  top: 115px;
-  left: 60%;
+  top: 140px;
+  left: 67%;
 }
 .clients-section.style-2
   .section-wrapper
@@ -8074,7 +8074,7 @@ button {
 }
 .clients-section.style-2 .section-wrapper .clients .client-list:nth-child(4) {
   top: 265px;
-  left: 35%;
+  left: 33%;
 }
 .clients-section.style-2
   .section-wrapper
@@ -8102,11 +8102,11 @@ button {
   .clients
   .client-list:nth-child(5)
   .client-thumb::before {
-  background: #fe7855;
+  background: #cfee20;
 }
 .clients-section.style-2 .section-wrapper .clients .client-list:nth-child(6) {
-  top: 288px;
-  left: 70%;
+  top: 300px;
+  left: 77%;
 }
 .clients-section.style-2
   .section-wrapper
@@ -8122,8 +8122,7 @@ button {
 }
 .clients-section.style-2 .section-wrapper .clients .client-list:nth-child(7) {
   top: 75px;
-  left: 75%;
-  left: 70%;
+  left: 66%;
 }
 .clients-section.style-2
   .section-wrapper
